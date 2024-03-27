@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="https://fonts.googleapis.com/css2?family=Anta&family=Edu+NSW+ACT+Foundation:wght@400..700&display=swap" rel="stylesheet">
+<title>20220140027</title>
+<h1>Universitas Muhammadiyyah Yogyakarta</h1>
+<style>
+  body {
+    background-image: url('https://al-zaytun.ac.id/images/pic05.jpg');
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: center;
+  }
+  </style>
+<style>
+  .image-bottom {
+    text-align: bottom;
+  }
+  .image-bottom img {
+    width: 30%;
+    border-radius: 50px;
+    box-shadow: 0px 0px 10px rgba(155, 153, 153, 0.821);
+  }
+</style>
+</head>
+<body>
+  <style>
+    body {
+    border: 10px solid;
+    border-image: url(https://i.pinimg.com/originals/ce/76/19/ce7619c7eb81e55fee32c1ad13b51e4a.gif) 10 / 15px / 1px stretch;}
+  </style>
+  <input type="image" src="https://cdn.timesmedia.co.id/images/2020/06/21/UMY.jpg" name="umy" height="225"width="390">
+  <input type="image" src="https://31.media.tumblr.com/b058db7598b4807c3a24684bdddde06e/tumblr_mstgs7dxe91rdu90go1_1280.gif" name="gabut" height="170" width="200">
+  <p id="hasil"></p>
+  
+  <div class="container">
+  <button id="toggleButton">cek informasi</button>
+  <p id="hiddenMessage" style="display: none;">UMY merupakan lembaga pendidikan tinggi yang didirikan oleh Persyarikatan Muhammadiyah,
+     bertujuan untuk terwujudnya sarjana muslim berakhlaq mulia, yaitu cendikiawan yang siap mengemban misi selaku khalifah Allah di atas bumi, 
+     yang tugas utamanya mengupayakan terwujudnya kehidupan masyarakat yang makmur sejahtera.</p>\
+
+</div>
+<script>
+  const toggleButton = document.getElementById('toggleButton');
+  const hiddenMessage = document.getElementById('hiddenMessage');
+  toggleButton.addEventListener('click', function() {
+    if (hiddenMessage.style.display === 'none') {
+      hiddenMessage.style.display = 'block';
+    } else {
+      hiddenMessage.style.display = 'none';
+    }
+  });
+</script>
+</body>
+</html>
