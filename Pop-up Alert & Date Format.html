@@ -1,0 +1,36 @@
+<!DOCTYPE html> <!-- deklarasi html-->
+<html lang="en"> <!-- bhs negara-->
+<head> <!--heading-->
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dimensi Rumah</title>
+<h1>Dimensi Rumah</h1>
+<script> alert("html css js itu mudah") </script> <!-- script internal javascript-->
+<link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet"> <!--eksternal link-->
+<link rel="stylesheet" href="style.css"> <!--eksternal css-->
+<style>
+  .image-bottom {
+    text-align: bottom;
+  }
+  .image-bottom img {
+    width: 30%;
+    border-radius: 50px;
+    box-shadow: 0px 0px 10px rgba(155, 153, 153, 0.821);
+  }
+</style>
+</head>
+<body>
+  <script src="script.js"></script>
+<div class="Notes">
+  <div class="image-center">
+    <img src="https://i.ytimg.com/vi/TSy8gC96UIQ/maxresdefault.jpg" alt="Image" />
+  </div>
+  <p id="hasil"></p>
+  <div>tes :</div>
+  <button onclick="show()">pejet</button>
+</div>
+<script>
+  document.getElementById("hasil").textContent = new Date().toLocaleString();
+</script>
+</body>
+</html>
